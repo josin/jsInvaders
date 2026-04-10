@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jsInvaders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="canvas-wrapper">
+      <canvas id="game" width="720" height="480"></canvas>
+      <div id="scanline-overlay"></div>
+    </div>
+    <p id="instructions">
+      Move: <kbd>←</kbd><kbd>→</kbd> or <kbd>H</kbd><kbd>L</kbd> &nbsp;|&nbsp;
+      Fire: <kbd>Space</kbd> &nbsp;|&nbsp;
+      Pause: <kbd>P</kbd> &nbsp;|&nbsp;
+      Quit: <kbd>Q</kbd>
+    </p>
+  </div>
+
+  <div id="name-input-overlay" class="hidden">
+    <div id="name-input-dialog">
+      <p id="name-input-title">NEW HIGH SCORE!</p>
+      <p id="name-input-prompt">Enter your name:</p>
+      <input
+        type="text"
+        id="name-input-field"
+        maxlength="8"
+        autocomplete="off"
+        spellcheck="false"
+      >
+      <button id="name-input-submit">OK</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
