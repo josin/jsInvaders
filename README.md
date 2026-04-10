@@ -6,8 +6,7 @@ jsInvaders is a faithful recreation of [nInvaders](https://github.com/sf-refugee
 
 Zero dependencies. Zero build steps. Just open and play.
 
-> ![Screenshot placeholder](screenshot.png)
-> *Screenshot goes here — capture the title screen or mid-game action for maximum retro vibes.*
+![jsInvaders gameplay showing rows of aliens, destructible bunkers, and the player ship on a terminal-style grid](https://github.com/user-attachments/assets/566b815e-5f8a-495e-b246-697dc81e2be4)
 
 ---
 
